@@ -12,7 +12,9 @@ public class Aeropuerto {
 		return avion;
 	}
 	public void VisualizarAviones() {
-
+		for(Avion avion : this.aviones){
+			System.out.println(avion.toString());
+		}
 	}
 	public List<Avion> getAviones() {
 		return this.aviones;
